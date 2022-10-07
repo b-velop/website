@@ -1,0 +1,28 @@
+.header {
+    background: #333;
+    color: #ddd;
+}
+
+header {
+    background-color: #4b7bec;
+    position: sticky;
+    top: 0;
+}
+
+h1.my-head {
+    margin-top: -1rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+}
+
+p.righty {
+    display: flex;
+    justify-content: right;
+    color: #d1d8e0;
+}
+
+h1 {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
