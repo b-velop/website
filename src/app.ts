@@ -10,7 +10,7 @@ export class App {
 
   configureRouter(config: RouterConfiguration, router: Router): void {
     this.router = router;
-    config.options.pushState = true;
+    config.options.pushState = false;
     config.title = 'b-velop';
     config.map([
       { route: ['', 'home'], name: 'home', moduleId: PLATFORM.moduleName('./resources/home.html') },
