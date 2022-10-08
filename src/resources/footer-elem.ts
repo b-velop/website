@@ -3,6 +3,8 @@ import { Router } from 'aurelia-router';
 
 @autoinject()
 export class FooterElem {
+    thisYear = new Date().getFullYear();
+    
     constructor(private router: Router) {
     }
     toImpressum() {

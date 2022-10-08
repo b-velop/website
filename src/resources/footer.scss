@@ -1,5 +1,14 @@
-footer {
+@import '../app.scss';
+
+footer>div.links {
     display: flex;
     justify-content: space-around;
     padding: 1rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
 }

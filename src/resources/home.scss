@@ -1,6 +1,4 @@
-h2 {
-    border-bottom: 1px inset #4b7bec;
-}
+@import '../app.scss';
 
 ul {
     list-style: '// ';
@@ -11,6 +9,6 @@ a:visited {
     color: #4b7bec;
 }
 
-a:hover, a:active {
+a:hover {
     color: #20bf6b;
 }

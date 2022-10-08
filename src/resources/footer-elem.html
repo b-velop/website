@@ -1,10 +1,13 @@
 <template>
     <require from="./footer.scss"></require>
     <footer>
-       <p>==</p>
-       <a href="" click.delegate="toHome()">Home</a> 
-       <p>==</p>
-       <a href="" click.delegate="toImpressum()">Impressum</a> 
-       <p>==</p>
+        <div class="links">
+            <a href="" click.delegate="toHome()">Home</a>
+            <p>//</p>
+            <a href="" click.delegate="toImpressum()">Impressum</a>
+        </div>
+        <div class="container footer-container">
+            &#169; ${thisYear} - b-velop
+        </div>
     </footer>
 </template>
