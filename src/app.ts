@@ -1,7 +1,8 @@
 import 'bootstrap/scss/bootstrap.scss';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import { Router, RouterConfiguration } from 'aurelia-router';
-import {PLATFORM} from 'aurelia-pal';
+import { PLATFORM } from 'aurelia-pal';
+import '@fortawesome/fontawesome-free/js/all.min';
 
 export class App {
   public message = 'Hello World!';

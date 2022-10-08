@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'RobotoCondensed';
+    src: url(./RobotoCondensed-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(./Ubuntu-Medium.ttf) format('truetype');
+}
+
+body {
+    font-family: 'RobotoCondensed';
+}
+
+h1.company {
+    font-family: 'Ubuntu';
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -5,5 +23,16 @@ body {
 }
 
 .my-hr {
-    border-bottom: 1px inset #4b7bec;
+    border-bottom: 2px inset #4b7bec;
+    font-family: 'RobotoCondensed';
+}
+
+p.righty {
+    display: flex;
+    justify-content: right;
+    color: #d1d8e0;
+}
+
+span.braces {
+    color: #a5b1c2;
 }

@@ -5,6 +5,7 @@ overrides:
   jsdom@<=16.4.0: '>=16.5.0'
 
 specifiers:
+  '@fortawesome/fontawesome-free': ^6.2.0
   '@types/jest': ^29.1.2
   '@types/node': ^18.8.3
   '@types/webpack': ^5.28.0
@@ -54,6 +55,7 @@ specifiers:
   webpack-dev-server: ^4.11.1
 
 dependencies:
+  '@fortawesome/fontawesome-free': 6.2.0
   aurelia-animator-css: 1.0.4
   aurelia-bootstrapper: 2.4.0
   bootstrap: 5.2.2_@popperjs+core@2.11.6
@@ -600,6 +602,12 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@fortawesome/fontawesome-free/6.2.0:
+    resolution: {integrity: sha512-CNR7qRIfCwWHNN7FnKUniva94edPdyQzil/zCwk3v6k4R6rR2Fr8i4s3PM7n/lyfPA6Zfko9z5WDzFxG9SW1uQ==}
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dev: false
 
   /@humanwhocodes/config-array/0.10.7:
     resolution: {integrity: sha512-MDl6D6sBsaV452/QSdX+4CXIjZhIcI0PELsxUjk4U828yd58vk3bTIvk/6w5FY+4hIy9sLW0sfrV7K7Kc++j/w==}
