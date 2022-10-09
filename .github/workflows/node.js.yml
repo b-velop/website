@@ -33,3 +33,6 @@ jobs:
       with:
         version: 7.x
         run_install: true
+    - name: Test
+      run: pnpm test
+      run: pnpm rebuild
