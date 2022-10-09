@@ -31,9 +31,4 @@ jobs:
     - name: Setup pnpm
       uses: pnpm/action-setup@v2.2.2
       with:
-        # Version of pnpm to install
-        version: # optional
-        # Where to store pnpm files
-        dest: # optional, default is ~/setup-pnpm
-        # If specified, run `pnpm install`
-        run_install:pnpm install
+        run_install: pnpm install
