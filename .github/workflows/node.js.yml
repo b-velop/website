@@ -35,4 +35,4 @@ jobs:
         run_install: true
     - name: Test
       run: pnpm test
-      run: pnpm rebuild
+      
