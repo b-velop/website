@@ -21,11 +21,19 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'pnpm'
-    - run: pnpm install
-    - run: pnpm run build --if-present
-    - run: pnpm test
+        cache: 'npm'
+
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v2.2.2
+      with:
+        # Version of pnpm to install
+        version: # optional
+        # Where to store pnpm files
+        dest: # optional, default is ~/setup-pnpm
+        # If specified, run `pnpm install`
+        run_install:pnpm install
